@@ -1,6 +1,9 @@
 import React from 'react'
 
 const About = () => {
+  const irArepos = ( ) => {
+    window.location.replace("https://github.com/Sebastianidm");
+  }
   return (
     <section id='about'>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -18,11 +21,12 @@ const About = () => {
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Trabaja conmigo
             </a>
-            <a
-              href="#Github"
+            <button
+              
+              onClick={irArepos}
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Mira mi Github
-            </a>
+            </button>
           </div>
         </div>
         
