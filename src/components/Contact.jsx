@@ -1,9 +1,13 @@
 import React from 'react'
 
 const Contact = () => {
+
+  const enviarCorreo = () => {
+    location.href ='mailto:sebastiandiazmiranda@gmail.com';
+  }
   return (
-    <section id="contact" className="relative">
-    <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+    <section id="contact" className="relative" >
+    <div className="container px-5 py-10 h-full mx-auto flex sm:flex-nowrap flex-wrap">
       <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <iframe
           width="100%"
@@ -14,7 +18,7 @@ const Contact = () => {
           marginHeight={0}
           marginWidth={0}
           style={{ filter: "opacity(0.7)" }}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.5626185759957!2d-71.41696916912565!3d-33.06798002422058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689d8420724be79%3A0x4a7a530b02d6c64f!2sLago%20Las%20Torres%20170%2C%20Quilpu%C3%A9%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2sus!4v1673805408081!5m2!1ses!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26753.416973218587!2d-71.44305545!3d-33.05180345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96627ef5a2b5a5a7%3A0x50d9a53f7f329f92!2zUXVpbHB1w6ksIFZhbHBhcmHDrXNv!5e0!3m2!1ses!2scl!4v1673965776789!5m2!1ses!2scl"
         />
         <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6">
@@ -22,7 +26,7 @@ const Contact = () => {
               DIRECCIÓN
             </h2>
             <p className="mt-1">
-              Lago las torres 170 <br />
+              Lago las torres  <br />
               Quilpue, Valparaiso (Chile)
             </p>
           </div>
@@ -40,56 +44,23 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <form
+      <div
         netlify
         name="contact"
-        className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-        <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-          Contactame
+        className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-5">
+        <h2 className="text-white sm:text-4xl text-3xl mb-3 pb-2 font-medium title-font">
+          Contactame ! 
         </h2>
-        <p className="leading-relaxed mb-5">
-          
-        </p>
-        <div className="relative mb-4">
-          <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-            Nombre
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-          />
-        </div>
-        <div className="relative mb-4">
-          <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-            Correo electrónico
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-          />
-        </div>
-        <div className="relative mb-4">
-          <label
-            htmlFor="message"
-            className="leading-7 text-sm text-gray-400">
-            Mensaje
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-          />
-        </div>
+        
         <button
-          type="submit"
-          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-          Enviar
+         
+          onClick={enviarCorreo}
+          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10">
+          Enviar correo
+          
         </button>
-      </form>
+       
+      </div>
     </div>
   </section>
   )

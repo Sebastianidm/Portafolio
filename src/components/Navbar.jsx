@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Navbar = () => {
+  const enviarCorreo = () => {
+    location.href ='mailto:sebastiandiazmiranda@gmail.com';
+  }
   return (
     <div>
       <header className="bg-gray-800 md:sticky top-0 z-10">
@@ -21,6 +24,7 @@ const Navbar = () => {
         </nav>
         <a
           href="#contact"
+          onClick={enviarCorre}
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-base mt-4 md:mt-0">
           Contactame
          
