@@ -4,6 +4,7 @@ import About from './components/About'
 import Github from './components/Github'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Projects from './components/Projects'
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Navbar/>
     <About/>
     <Skills/>
+    <Projects/>
     <Github/>
     <Contact/>
     
