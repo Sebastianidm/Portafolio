@@ -15,27 +15,31 @@ export const skills = [
       subtitle: "React + vite",
       description:
         "Tienda de pizza",
-      link: "https://vercel.com/sebastianidm/mypizza-c88f",
+      image: "./project-1.gif",
+      link: "https://mypizza-c88f.vercel.app/",
     },
     {
       title: "Rick & Morty Api",
       subtitle: "React + vite",
       description:
         "Consumiendo api de rick & Morty",
-      link: "https://vercel.com/sebastianidm/rickandmorty",
+      image: "./project-2.gif",
+      link: "https://rickandmorty-bice.vercel.app/",
     },
     {
       title: "Poke Api",
       subtitle: "React + Vite",
       description:
         "Consumiendo api de pokemon",
-      link: "https://vercel.com/sebastianidm/reactrouter2",
+      image: "./project-3.gif",
+      link: "https://reactrouter2-8iohpwy7q-sebastianidm.vercel.app/",
     },
     {
       title: "Natural-Pic",
       subtitle: "React Hooks",
       description:
-        "Probando hook de react",
-      link: "https://vercel.com/sebastianidm/natural-pic",
+        "Probando hook de React",
+      image: "./project-4.gif",
+      link: "https://natural-4w9yszmtl-sebastianidm.vercel.app/",
     },
   ];
