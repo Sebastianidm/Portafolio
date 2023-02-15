@@ -32,7 +32,7 @@ export const skills = [
       description:
         "Consumiendo api de pokemon",
       image: "./project-3.gif",
-      link: "https://reactrouter2-8iohpwy7q-sebastianidm.vercel.app/",
+      link: "https://reactrouter2.vercel.app/",
     },
     {
       title: "Natural-Pic",
@@ -40,6 +40,6 @@ export const skills = [
       description:
         "Probando hook de React",
       image: "./project-4.gif",
-      link: "https://natural-4w9yszmtl-sebastianidm.vercel.app/",
+      link: "https://natural-pic.vercel.app/",
     },
   ];
