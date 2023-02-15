@@ -15,7 +15,6 @@ export const skills = [
       subtitle: "React + vite",
       description:
         "Tienda de pizza",
-      image: "./project-1.gif",
       link: "https://vercel.com/sebastianidm/mypizza-c88f",
     },
     {
@@ -23,7 +22,6 @@ export const skills = [
       subtitle: "React + vite",
       description:
         "Consumiendo api de rick & Morty",
-      image: "./project-2.gif",
       link: "https://vercel.com/sebastianidm/rickandmorty",
     },
     {
@@ -31,7 +29,6 @@ export const skills = [
       subtitle: "React + Vite",
       description:
         "Consumiendo api de pokemon",
-      image: "./project-3.gif",
       link: "https://vercel.com/sebastianidm/reactrouter2",
     },
     {
@@ -39,7 +36,6 @@ export const skills = [
       subtitle: "React Hooks",
       description:
         "Probando hook de react",
-      image: "./project-4.gif",
       link: "https://vercel.com/sebastianidm/natural-pic",
     },
   ];
