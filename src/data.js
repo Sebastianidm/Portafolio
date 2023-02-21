@@ -27,11 +27,19 @@ export const skills = [
       link: "https://rickandmorty-bice.vercel.app/",
     },
     {
+      title: "Clima App",
+      subtitle: "React + Vite + Weather API",
+      description:
+        "Consumiendo api del clima",
+      image: "./project-3.gif",
+      link: "https://climapp-phi.vercel.app/",
+    },
+    {
       title: "Poke Api",
       subtitle: "React + Vite",
       description:
         "Consumiendo api de pokemon",
-      image: "./project-3.gif",
+      image: "./project-4.gif",
       link: "https://reactrouter2.vercel.app/",
     },
     {
@@ -39,7 +47,10 @@ export const skills = [
       subtitle: "React Hooks",
       description:
         "Probando hook de React",
-      image: "./project-4.gif",
+      image: "./project-5.gif",
       link: "https://natural-pic.vercel.app/",
     },
   ];
+
+
+  
