@@ -19,6 +19,14 @@ export const skills = [
       link: "https://mypizza-c88f.vercel.app/",
     },
     {
+      title: "Muchu humo ecommerce",
+      subtitle: "React + vite + Tailwind css + Firebase",
+      description:
+        "Tabaqueria",
+      image: "./project-6.gif",
+      link: "https://mucho-humo.vercel.app/",
+    },
+    {
       title: "Rick & Morty Api",
       subtitle: "React + vite",
       description:

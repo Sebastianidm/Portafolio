@@ -12,7 +12,7 @@ export default function Projects() {
             Aplicaciones que he construido
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 w-full ">
           {projects.map((project) => (
             <a
               href={project.link}
