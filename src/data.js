@@ -19,6 +19,14 @@ export const skills = [
       link: "https://mypizza-c88f.vercel.app/",
     },
     {
+      title: "Calculadora App",
+      subtitle: "React + Vite",
+      description:
+        "Calculadora convencional",
+      image: "./project-1.gif",
+      link: "https://calculadorapp.vercel.app/",
+    },
+    {
       title: "Muchu humo ecommerce",
       subtitle: "React + vite + Tailwind css + Firebase",
       description:
