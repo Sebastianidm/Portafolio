@@ -6,7 +6,9 @@ export const skills = [
     'Sass',
     'Bootstrap',
     'Tailwindcss',
-    'Typescript (en progreso)'
+    'Typescript ',
+    'Scrum',
+    'Git Flow'
   ];
 
   export const projects = [
