@@ -5,7 +5,7 @@ const Contact = () => {
     location.href = "mailto:sebastiandiazmiranda@gmail.com";
   };
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative font-mono">
       <div className="container px-5 py-10 h-full mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -51,7 +51,7 @@ const Contact = () => {
 
           <button
             onClick={enviarCorreo}
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10"
+            className="text-white bg-black border-0  font-semibold py-2 px-6 focus:outline-none hover:bg-cyan-500 rounded text-lg mt-10 h-28"
           >
             Enviar correo
           </button>

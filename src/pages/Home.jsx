@@ -5,7 +5,7 @@ import Contact from "../components/Contact";
 
 function Home() {
   return (
-    <main className="text-gray-400  bg-slate-800 body-font ">
+    <main className="text-gray-400  bg-gray-900 body-font ">
       <About />
       <Skills />
       <Projects />
