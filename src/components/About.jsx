@@ -13,7 +13,7 @@ const About = () => {
         
         <div className=" font-mono :flex-grow sm:w-1/2 lg:pr-24 sm:pr-16 flex flex-col sm:items-center sm:text-center sm-16 sm:mb-0 items-center text-center">
               
-              <img src={sebacvimg} alt='perfiljpg' className='fotoPerfil rounded-full' />
+              <img src={sebacvimg} alt='perfiljpg' className='fotoPerfil rounded-full border-transparent border-2' />
               
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hola, soy Sebastián 

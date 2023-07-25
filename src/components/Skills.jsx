@@ -6,9 +6,11 @@ const Skills = () => {
     <section id='skills'>
       <div className='container px-5 py-10 mx-auto font-mono'>
         <div className='text-center mb-20'>
+          
           <h1 className='font-mono sm:text-4xl text-3xl font-semibold title-font text-white  mb-4'>
           Habilidades y Tecnologías
           </h1>
+          <p className='text-center text-white'>Soy un desarrollador front-end con experiencia en tecnologías web como HTML, CSS, JS y React. También estoy familiarizado con metodologías ágiles y GitFlow. Me encanta colaborar en equipos multidisciplinarios, trabajando junto a desarrolladores backend y diseñadores. Siempre estoy listo para nuevos desafíos y oportunidades para crecer profesionalmente.</p>
         </div>
         <div className='flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>
         {skills.map((skill) => (

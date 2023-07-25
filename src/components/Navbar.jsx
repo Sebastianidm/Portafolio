@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className=" top-0 font-mono bg-gray-900 flex justify-center  ">
-      <header className="  sticky top-0 mt-3 mb-3 z-10 w-1/2 border-2 border-cyan-500 rounded-full bg-transparent ">
+      <header className="   top-0 mt-3 mb-3 z-10 md:w-1/2 md:border-2 md:border-cyan-500 md:rounded-full md:bg-transparent ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="title-font font-medium text-white mb-4  text-center md:mb-0">
             <Link to="/" className="ml-3 text-xl ">
