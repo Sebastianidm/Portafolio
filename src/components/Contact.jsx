@@ -16,7 +16,7 @@ const Contact = () => {
               <p className="mt-1">Quilpue, Valparaiso (Chile)</p>
            
             
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 CORREO ELECTRÓNICO
               </h2>
               <a className="text-indigo-400 leading-relaxed">

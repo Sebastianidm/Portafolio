@@ -1,6 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import {Fade} from "react-awesome-reveal"
 
 export default function Projects() {
   return (
@@ -8,9 +9,11 @@ export default function Projects() {
       <div className="container  flex flex-col flex-wrap px-5 py-10 mx-auto text-center w-100 lg:px-40">
         <div className="flex flex-col flex-wrap  w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="font-mono sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <Fade cascade>
+          <h1 className="title-font sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Aplicaciones que he construido
           </h1>
+          </Fade>
         </div>
 
         <div className="flex flex-wrap w-100   ">
