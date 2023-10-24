@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 .fotoPerfil{
-width: 11rem;
-height: 11rem;
+width: 15rem;
+height: 15rem;
 margin-top: 3rem;
 margin-bottom:3rem
 
+}
 
+.aboutStyle {
+    height: 45rem;
 }

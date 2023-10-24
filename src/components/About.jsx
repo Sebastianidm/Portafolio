@@ -7,14 +7,14 @@ const About = () => {
     window.location.replace("https://github.com/Sebastianidm");
   }
   return (
-    <section id='about' >
+    <section id='about' className=' bg-slate-800' >
       
-      <div className="container  mx-auto flex px-10 py-20  flex-col items-center">
+      <div className="container aboutStyle  pb-14 mx-auto flex px-10 flex-col items-center justify-center ">
 
         
         <div className=" font-mono  sm:w-1/2   flex flex-col sm:items-center sm:text-center sm-16 sm:mb-0 items-center text-center">
               
-              <img src={sebacvimg} alt='perfiljpg' className='fotoPerfil rounded-full border-transparent border-2' />
+             
 
            <Fade cascade >   
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white mx-0">
