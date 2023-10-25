@@ -2,60 +2,44 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
+
 const Navbar = () => {
   
 
-  return (
-    <div className=" top-0 font-mono bg-slate-800  flex  justify-center    lg:justify-center lg:space-between ">
-      <header className="   top-0 mt-3 mb-3 z-10 lg:w-70 lg:border-2 md:border-cyan-500 lg:rounded-full lg:bg-transparent ">
-        <div className="container mx-auto lg:flex lg:flex-wrap lg:p-5 flex-col lg:flex-row lg:items-center  items-center ">
-        <a className="title-font font-medium text-white mb-4 text-center lg:mb-0 lg:mt-1">
-            <Link to="/welcome" className="ml-3 text-xl">
-              Sebastián Díaz
-            </Link>
-          </a>
-          <div className="lg:mr-auto lg:ml-4 lg:py-1 lg:pl-4 lg:border-l lg:border-gray-700 lg:flex lg:flex-row lg:flex-wrap lg:items-center text-base lg:justify-center  flex flex-col justify-center mt-1 text-center ">
-           
-            <div className="lg:inline-flex lg:items-center text-white bg-black border-0 py-1 px-3 mx-3 w-36 rounded text-base lg:mt-0 mt-3 ring-2 ring-black">
-            <Link to="skills">
-              <a
-               
-              >
-                Habilidades
-              </a>
-            </Link>
-            </div>
+  return ( 
+<nav className="bg-slate-800 fixed w-full z-20 top-0 left-0 border-b border-slate-900">
+  <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="https://flowbite.com/" className="flex items-center">
+      <img src="/src/img/imagen-perfil.jpg" className="h-8 mr-3" alt="Flowbite Logo"/>
+      <Link>
+      <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Sebastián Díaz</span>
+      </Link>
+  </a>
+  <div className="flex md:order-2 ">
+      <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+      <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+        <span className="sr-only">Open main menu</span>
+        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-slate-800 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-slate-800 dark:bg-gray-800 md:dark:bg-gray-900 ">
+      <Link to="skills">
+        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  md:p-0" aria-current="page">Habilidades</a>
+      </Link>
+      <Link to="projects">
+        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0  ">Proyectos</a>
+      </Link>
+      <Link to="contact">
+        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0  ">Contacto</a>
+      </Link>
+    </ul>
+  </div>
+  </div>
+</nav>
 
-            <div className="lg:inline-flex lg:items-center bg-black border-0 py-1 px-3 mx-3 text-white w-36 rounded text-base lg:mt-0 mt-3 ring-2 ring-black">
-            <Link to="projects">
-              <a
-                
-              >
-                Proyectos
-              </a>
-            </Link>
-            </div>
-
-
-            <div className="lg:inline-flex lg:items-center bg-black border-0 py-1 px-3 mx-3 text-white w-36 rounded text-base lg:mt-0 mt-3 ring-2 ring-black">
-            <Link to="contact">
-              <a
-                
-              >
-                Contact
-              </a>
-            </Link>
-            </div> 
-
-
-
-            
-            
-            
-          </div>
-        </div>
-      </header>
-    </div>
   );
 };
 

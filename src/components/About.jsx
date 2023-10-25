@@ -1,7 +1,6 @@
 import React from 'react'
-import sebacvimg from '../img/sebacvimg.jpg';
 import {Fade} from "react-awesome-reveal"
-
+import imagenPerfil from '../img/imagen-perfil.jpg';
 const About = () => {
   const irArepos = ( ) => {
     window.location.replace("https://github.com/Sebastianidm");
@@ -11,7 +10,8 @@ const About = () => {
       
       <div className="container aboutStyle  pb-14 mx-auto flex px-10 flex-col items-center justify-center ">
 
-        
+      <img src={imagenPerfil} alt='perfiljpg' className='fotoPerfil rounded-full border-transparent border-2 ' />
+
         <div className=" font-mono  sm:w-1/2   flex flex-col sm:items-center sm:text-center sm-16 sm:mb-0 items-center text-center">
               
              

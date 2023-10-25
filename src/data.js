@@ -13,6 +13,14 @@ export const skills = [
 
   export const projects = [
     {
+      title: "Devsafio",
+      subtitle: "MERN stack",
+      description:
+        "Devsafio SPA",
+      image: "./project-1.gif",
+      link: "https://devsafio.com/",
+    },
+    {
       title: "My pizza",
       subtitle: "React + vite",
       description:

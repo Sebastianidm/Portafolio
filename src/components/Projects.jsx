@@ -6,8 +6,8 @@ import {Fade} from "react-awesome-reveal"
 export default function Projects() {
   return (
     
-    <section id="projects" className="text-gray-400  font-mono bg-slate-800  pt-9  ">
-      <div className="container  flex flex-col flex-wrap px-5 py-10 mx-auto text-center w-100 lg:px-40">
+    <section id="projects" className="text-gray-400  font-mono bg-slate-800  pt-14 ">
+      <div className="container  flex flex-col flex-wrap px-5 py-10 mx-auto text-center w-100 lg:px-40 md:pb-14">
         <div className="flex flex-col flex-wrap  w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4 text-white" />
           <Fade cascade>
