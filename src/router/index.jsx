@@ -5,6 +5,10 @@ import Home from "../pages/Home";
 import NotFoundView from "../Views/NotFoundView";
 import WelcomeView from "../Views/WelcomeView";
 import ButtonsView from "../Views/ButtonsView";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import About from "../components/About";
+import Skills from "../components/Skills";
 
 
 export const router = createBrowserRouter([
@@ -15,21 +19,24 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home/>
+
             },
             {
-                path: "/components",
-                element: <ComponentsView/>,
-                children:[{
-
                 
-                    path: "",
-                    element: <WelcomeView/>,
-                },
-                {
-                    path: "buttons",
-                    element: <ButtonsView/>
-                }
-                ]
+                path: "welcome",
+                element: <About/>
+            },
+            {
+                path: "skills",
+                element: <Skills/>
+            },
+            {
+                path: "projects",
+                element: <Projects/>
+            },
+            {
+                path: "contact",
+                element: <Contact/>
             }
 
         ]

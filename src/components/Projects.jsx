@@ -5,10 +5,11 @@ import {Fade} from "react-awesome-reveal"
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400  font-mono  body-font">
-      <div className="container  flex flex-col flex-wrap px-5 py-10 mx-auto text-center w-100 lg:px-40">
+    
+    <section id="projects" className="text-gray-400  font-mono bg-slate-800  pt-14 ">
+      <div className="container  flex flex-col flex-wrap px-5 py-10 mx-auto text-center w-100 lg:px-40 md:pb-14">
         <div className="flex flex-col flex-wrap  w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-white" />
           <Fade cascade>
           <h1 className="title-font sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Aplicaciones que he construido
@@ -16,12 +17,13 @@ export default function Projects() {
           </Fade>
         </div>
 
-        <div className="flex flex-wrap w-100   ">
+        <div className="flex flex-wrap w-100    ">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-full sm:p-4 p-2 bg"
+              className="sm:w-1/2 w-full sm:p-4 p-2 "
+              
             >
               <div className="flex">
                 <div className="px-8 py-10  w-full border-4 rounded border-black bg-black opacity-100 ">
@@ -38,6 +40,8 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      
     </section>
+    
   );
 }

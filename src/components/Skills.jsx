@@ -4,8 +4,8 @@ import {Fade} from "react-awesome-reveal"
 
 const Skills = () => {
   return (
-    <section id='skills'>
-      <div className='container px-5 py-10 mx-auto font-mono '>
+    <section id='skills' className='h-max bg-slate-800 pt-10'>
+      <div className='md:container px-5 py-10 mx-auto font-mono  pt-24 md:pb-14 '>
         <div className='text-center mb-20'>
           <Fade cascade>
           <h1 className='title-font sm:text-4xl text-3xl font-medium title-font mb-4 text-white'>
