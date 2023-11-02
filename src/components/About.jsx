@@ -18,7 +18,7 @@ const About = () => {
         <div className=" font-mono  sm:w-1/2   flex flex-col sm:items-center sm:text-center sm-16 sm:mb-0 items-center text-center">
           <Fade cascade>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white mx-0">
-              Hola, soy Sebastián mi pasión es construir aplicaciones front-end.
+              Hola, soy Sebastián. Mi pasión es construir aplicaciones front-end.
             </h1>
           </Fade>
           <p className="mb-8 leading-relaxed"></p>
