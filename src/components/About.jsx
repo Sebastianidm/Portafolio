@@ -1,6 +1,7 @@
 import React from 'react'
 import {Fade} from "react-awesome-reveal"
 import imagenPerfil from '../img/imagen-perfil.jpg';
+import { Link } from "react-router-dom";
 const About = () => {
   const irArepos = ( ) => {
     window.location.replace("https://github.com/Sebastianidm");
@@ -19,19 +20,20 @@ const About = () => {
            <Fade cascade >   
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white mx-0">
             Hola, soy Sebastián 
-            <br className="hidden lg:inline-block" /> Mi pasion es construir aplicaciones Front-end.
+            <br className="hidden lg:inline-block" />Mi pasión es construir aplicaciones front-end.
           </h1>
           </Fade>
           <p className="mb-8 leading-relaxed">
            
           </p>
           <div className="flex justify-center">
-        
+            <Link to="contact">
             <a
               href="#contact"
               className="inline-flex text-white bg-cyan-500 border-0 py-2 px-6 focus:outline-none rounded text-lg">
               Trabaja conmigo
             </a>
+            </Link>
             <button
               
               onClick={irArepos}
