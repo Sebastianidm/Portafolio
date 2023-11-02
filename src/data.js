@@ -55,4 +55,11 @@ export const projects = [
     image: "./project-5.gif",
     link: "https://natural-pic.vercel.app/",
   },
+  {
+    title: "Movie Center",
+    subtitle: "TMDB API + REACT",
+    description: "Probando hooks de React",
+    image: "./project-5.gif",
+    link: "https://movies-api-tox3.vercel.app/",
+  },
 ];
