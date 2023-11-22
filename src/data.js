@@ -68,5 +68,4 @@ export const projects = [
     image: "./project-5.gif",
     link: "https://natural-pic.vercel.app/",
   },
-
 ];
