@@ -33,7 +33,20 @@ export const projects = [
     image: "./project-1.gif",
     link: "https://calculadorapp.vercel.app/",
   },
-
+  {
+    title: "Movie Center",
+    subtitle: "TMDB API + REACT",
+    description: "Probando hooks de React",
+    image: "./project-5.gif",
+    link: "https://movies-api-tox3.vercel.app/",
+  },
+  {
+    title: "Tic-Tac-Toe",
+    subtitle: "REACT + Tailwind CSS",
+    description: "Simple",
+    image: "./project-5.gif",
+    link: "https://tic-tac-toe-pi-lyart.vercel.app/",
+  },
   {
     title: "Rick & Morty Api",
     subtitle: "React + vite",
@@ -55,11 +68,5 @@ export const projects = [
     image: "./project-5.gif",
     link: "https://natural-pic.vercel.app/",
   },
-  {
-    title: "Movie Center",
-    subtitle: "TMDB API + REACT",
-    description: "Probando hooks de React",
-    image: "./project-5.gif",
-    link: "https://movies-api-tox3.vercel.app/",
-  },
+
 ];
