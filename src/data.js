@@ -34,6 +34,13 @@ export const projects = [
     link: "https://calculadorapp.vercel.app/",
   },
   {
+    title: "WoW Music Player",
+    subtitle: "Vue + Bulma",
+    description: "Reproductor de Musica",
+    image: "./project-1.gif",
+    link: "https://splendorous-croissant-f4a2fe.netlify.app/",
+  },
+  {
     title: "Movie Center",
     subtitle: "TMDB API + REACT",
     description: "Probando hooks de React",
