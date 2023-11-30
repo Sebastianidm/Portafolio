@@ -34,12 +34,13 @@ export const projects = [
     link: "https://calculadorapp.vercel.app/",
   },
   {
-    title: "WoW Music Player",
-    subtitle: "Vue + Bulma",
-    description: "Reproductor de Musica",
+    title: "Surgencia ONG",
+    subtitle: "Fullstack",
+    description: "Surgencia app",
     image: "./project-1.gif",
-    link: "https://splendorous-croissant-f4a2fe.netlify.app/",
+    link: "https://surgenciaong.vercel.app/",
   },
+  
   {
     title: "Movie Center",
     subtitle: "TMDB API + REACT",
@@ -74,5 +75,12 @@ export const projects = [
     description: "Probando hook de React",
     image: "./project-5.gif",
     link: "https://natural-pic.vercel.app/",
+  },
+  {
+    title: "WoW Music Player",
+    subtitle: "Vue + Bulma",
+    description: "Reproductor de Musica",
+    image: "./project-1.gif",
+    link: "https://splendorous-croissant-f4a2fe.netlify.app/",
   },
 ];
