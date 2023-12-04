@@ -45,8 +45,5 @@ export const router = createBrowserRouter([
 
         ]
     },
-    {
-        path: "*",
-        element: <NotFoundView />,
-    },
+  
 ])
