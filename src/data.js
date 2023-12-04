@@ -13,6 +13,13 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Surgencia ONG",
+    subtitle: "Fullstack",
+    description: "Surgencia app",
+    image: "./project-1.gif",
+    link: "https://surgenciaong.vercel.app/",
+  },
+  {
     title: "Devsafio",
     subtitle: "MERN stack",
     description: "Devsafio SPA",
@@ -33,14 +40,7 @@ export const projects = [
     image: "./project-1.gif",
     link: "https://calculadorapp.vercel.app/",
   },
-  {
-    title: "Surgencia ONG",
-    subtitle: "Fullstack",
-    description: "Surgencia app",
-    image: "./project-1.gif",
-    link: "https://surgenciaong.vercel.app/",
-  },
-  
+
   {
     title: "Movie Center",
     subtitle: "TMDB API + REACT",

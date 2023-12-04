@@ -2,48 +2,36 @@ import React from "react";
 
 const Contact = () => {
   const enviarCorreo = () => {
-    location.href = "mailto:sebastiandiazmiranda@gmail.com";
+    window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=sebastiandiazmiranda@gmail.com";
   };
+
   return (
-  
-    <section id="contact" className="relative font-mono text-center flex items-center justify-items-center mt-10 ">
-      <div className="container px-5 py-10  w-full h-full mx-auto flex  justify-center  mt-10
-         ">
-            <div className="mt-10">
-            
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                DIRECCIÓN
-              </h2>
-              <p className="mt-1 text-white">Quilpue, Valparaiso (Chile)</p>
-           
-            
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                CORREO ELECTRÓNICO
-              </h2>
-              <a className="text-white leading-relaxed">
-                sebastiandiazmiranda@gmail.com
-              </a>
-              
-             
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                NÚMERO DE TELÉFONO
-              </h2>
-              <p className="leading-relaxed text-white ">+56936896619</p>
-            
-            </div>
+    <section
+      id="contact"
+      className="bg-gray-800 py-10 text-white min-h-screen flex items-center"
+    >
+      <div className="container mx-auto ">
+        <div className="text-center mb-4">
+          <h2 className="text-3xl font-semibold mb-4">¡Contáctame!</h2>
+          <p>Estoy aquí para responder a cualquier pregunta que puedas tener.</p>
+        </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-full max-w-4xl mx-auto mt-10">
+         
 
-          
-          
+          <div className="text-center">
+            <h3 className="text-xl font-semibold mb-2">CORREO ELECTRÓNICO</h3>
+            <a className="text-white hover:underline" href="#" onClick={enviarCorreo}>
+              sebastiandiazmiranda@gmail.com
+            </a>
+          </div>
 
-          
-          
-      
-        
+          <div className="text-center">
+            <h3 className="text-xl font-semibold mb-2">NÚMERO DE TELÉFONO</h3>
+            <p>+56936896619</p>
+          </div>
+        </div>
       </div>
-
-      
-
     </section>
   );
 };
