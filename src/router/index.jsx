@@ -1,10 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import ComponentsView from "../Views/ComponentsView";
 import Default from "../layouts/Default";
 import Home from "../pages/Home";
-import NotFoundView from "../Views/NotFoundView";
-import WelcomeView from "../Views/WelcomeView";
-import ButtonsView from "../Views/ButtonsView";
+import NotFoundView from "../components/NotFoundView";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import About from "../components/About";
