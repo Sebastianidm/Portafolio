@@ -42,6 +42,13 @@ export const projects = [
   },
 
   {
+    title: "Horoscopo App",
+    subtitle: "Vite + React + Tailwind CSS",
+    description: "Tailwind CSS + React",
+    image: "./project-5.gif",
+    link: "https://horoscopo-dun.vercel.app/",
+  },
+  {
     title: "Movie Center",
     subtitle: "TMDB API + REACT",
     description: "Probando hooks de React",
